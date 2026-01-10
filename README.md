@@ -24,6 +24,6 @@ The papers are categorized into the following sections based on the data scenari
     * *Scenario: Controllable generation using masks, biological parameters, or text prompts.*
     * 利用掩码、生物参数或文本提示进行可控生成。
 
-**[5. Distributed & Privacy-Constrained Synthesis](05_Distributed_Privacy.md)**
+* **[5. Distributed & Privacy-Constrained Synthesis](05_Distributed_Privacy.md)**
     * *Scenario: Data is abundant but fragmented across institutions (Data Silos) or restricted by privacy laws.*
     * 针对数据虽然存在，但分散在不同机构（数据孤岛）或受隐私法规限制无法集中的场景。
