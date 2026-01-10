@@ -4,7 +4,7 @@ A curated list of resources focused on **Medical Image Synthesis**, emphasizing 
 
 This repository organizes generative methods based on the **availability and nature of the training data**.
 
-## 🧭 Contents
+## Contents
 
 The papers are categorized into the following sections based on the data scenario:
 
@@ -16,7 +16,7 @@ The papers are categorized into the following sections based on the data scenari
     * *Scenario: Two domains available but unaligned (e.g., CT and MRI from different patients).*
     * 针对只有未对齐的双模态数据场景。
 
-* **[3. Few-Shot & Rare Disease Synthesis](03_Few_Shot_Rare.md)** 🌟 **(Focus)**
+* **[3. Few-Shot & Rare Disease Synthesis](03_Few_Shot_Rare.md)**
     * *Scenario: Extreme data scarcity or class imbalance (e.g., generating rare tumors).*
     * 针对极度数据稀缺或类别不平衡（如罕见病）的场景。
 
