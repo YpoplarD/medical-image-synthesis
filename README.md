@@ -1,35 +1,29 @@
-# Medical Image Generation List
+# Medical Image Synthesis
 
-这是一个关于**医学图像生成（Medical Image Generation）**方法的精选资源列表。
+A curated list of resources focused on **Medical Image Synthesis**, emphasizing solutions for **Data Scarcity**, **Class Imbalance (Rare Diseases)**, and **Privacy Constraints**.
 
-本项目主要根据**训练数据的可用性**（Data Availability）对论文进行分类，特别关注数据稀缺、类别不平衡（罕见病）以及隐私受限场景下的生成方法。
+This repository organizes generative methods based on the **availability and nature of the training data**.
 
-## 🗂️ 目录 (Contents)
+## 🧭 Contents (目录)
 
-我们根据数据的配对情况、数量级以及隐私约束，将方法归类如下：
+The papers are categorized into the following sections based on the data scenario:
 
-* **[1. 配对图像转换 (Paired Image-to-Image Translation)](docs/1_paired.md)**
-    * 适用于拥有像素级对齐数据的场景（如同一患者的 MRI T1 到 T2）。
-    
-* **[2. 无配对/无监督合成 (Unpaired / Unsupervised Synthesis)](docs/2_unpaired.md)**
-    * 适用于不同模态但未对齐的数据场景（如 CycleGAN, Cycle-Diffusion）。
+* **[1. Paired Image-to-Image Translation](01_Paired_Translation.md)**
+    * *Scenario: Rich dataset with pixel-to-pixel correspondence (e.g., MRI T1 to T2).*
+    * 针对拥有像素级对应配对数据的场景。
 
-* **[3. 小样本与罕见病生成 (Few-Shot & Rare Disease Synthesis)](docs/3_few_shot_rare.md)** 🌟
-    * 适用于数据极度稀缺或长尾分布的场景（如罕见肿瘤生成、解剖结构解耦）。
+* **[2. Unpaired / Unsupervised Synthesis](02_Unpaired_Synthesis.md)**
+    * *Scenario: Two domains available but unaligned (e.g., CT and MRI from different patients).*
+    * 针对只有未对齐的双模态数据场景。
 
-* **[4. 文本/语义引导生成 (Text/Semantic-Guided Synthesis)](docs/4_guided.md)**
-    * 适用于利用掩码 (Mask)、文本 (Text) 或生物学参数控制生成的场景。
+* **[3. Few-Shot & Rare Disease Synthesis](03_Few_Shot_Rare.md)** 🌟 **(Focus)**
+    * *Scenario: Extreme data scarcity or class imbalance (e.g., generating rare tumors).*
+    * 针对极度数据稀缺或类别不平衡（如罕见病）的场景。
 
-* **[5. 联邦与隐私保护生成 (Federated & Privacy-Preserving)](docs/5_privacy.md)**
-    * 适用于分布式数据孤岛场景。
+* **[4. Text/Semantic-Guided Synthesis](04_Semantic_Guided.md)**
+    * *Scenario: Controllable generation using masks, biological parameters, or text prompts.*
+    * 利用掩码、生物参数或文本提示进行可控生成。
 
-## 📝 引用 (Citation)
-如果您觉得本仓库对您的研究有帮助，请引用相关综述：
-* *[Title of the Survey Paper you are reading/writing]*
-
-## 🤝 贡献 (Contribution)
-欢迎提交 PR 或 Issue 补充新论文。格式建议：
-`[缩写] [作者, 会议 年份] 标题 [PDF] [CODE]`
-
-## ⚖️ License
-MIT License
+* **[5. Federated & Privacy-Preserving Generation](05_Federated_Privacy.md)**
+    * *Scenario: Distributed data that cannot be shared centrally.*
+    * 针对数据无法共享的分布式/联邦学习场景。
