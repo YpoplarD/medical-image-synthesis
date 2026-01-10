@@ -4,7 +4,7 @@ A curated list of resources focused on **Medical Image Synthesis**, emphasizing 
 
 This repository organizes generative methods based on the **availability and nature of the training data**.
 
-## 🧭 Contents (目录)
+## 🧭 Contents
 
 The papers are categorized into the following sections based on the data scenario:
 
