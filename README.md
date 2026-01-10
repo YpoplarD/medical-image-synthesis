@@ -1,44 +1,35 @@
-# Awesome Medical Image Synthesis for Data Scarcity
+# Medical Image Generation List
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+这是一个关于**医学图像生成（Medical Image Generation）**方法的精选资源列表。
 
-This repository collects resources and papers on **Medical Image Synthesis**, with a special emphasis on tackling **Data Scarcity**, **Class Imbalance (Rare Diseases)**, and **Privacy Constraints**.
+本项目主要根据**训练数据的可用性**（Data Availability）对论文进行分类，特别关注数据稀缺、类别不平衡（罕见病）以及隐私受限场景下的生成方法。
 
-The organization of this repository is based on the **availability and nature of the training data** (Data-Centric Taxonomy).
+## 🗂️ 目录 (Contents)
 
-## 🗂️ Contents (目录)
+我们根据数据的配对情况、数量级以及隐私约束，将方法归类如下：
 
-We classify the methods into the following categories based on data scenarios:
+* **[1. 配对图像转换 (Paired Image-to-Image Translation)](docs/1_paired.md)**
+    * 适用于拥有像素级对齐数据的场景（如同一患者的 MRI T1 到 T2）。
+    
+* **[2. 无配对/无监督合成 (Unpaired / Unsupervised Synthesis)](docs/2_unpaired.md)**
+    * 适用于不同模态但未对齐的数据场景（如 CycleGAN, Cycle-Diffusion）。
 
-- **[1. Paired Image-to-Image Translation](./docs/1_paired_translation.md)**
-  - *Scenario:* Rich datasets with pixel-to-pixel correspondence (e.g., MRI T1 $\leftrightarrow$ T2).
-  
-- **[2. Unpaired / Unsupervised Synthesis](./docs/2_unpaired_synthesis.md)**
-  - *Scenario:* Two domains available but unaligned/unpaired (e.g., CT and MRI from different patient cohorts).
+* **[3. 小样本与罕见病生成 (Few-Shot & Rare Disease Synthesis)](docs/3_few_shot_rare.md)** 🌟
+    * 适用于数据极度稀缺或长尾分布的场景（如罕见肿瘤生成、解剖结构解耦）。
 
-- **[3. Few-Shot & Rare Disease Synthesis](./docs/3_rare_disease_few_shot.md)** 🌟 **(Focus)**
-  - *Scenario:* Extreme data scarcity, class imbalance, or longitudinal prediction (e.g., generating rare tumors, filling missing sessions).
-  - *Keywords:* Disentanglement, Anomaly-to-Synthesis, Longitudinal Prediction.
+* **[4. 文本/语义引导生成 (Text/Semantic-Guided Synthesis)](docs/4_guided.md)**
+    * 适用于利用掩码 (Mask)、文本 (Text) 或生物学参数控制生成的场景。
 
-- **[4. Text/Semantic-Guided Synthesis](./docs/4_controllable_synthesis.md)**
-  - *Scenario:* Controllable generation using masks, biological parameters, or text prompts.
-  - *Keywords:* Semantic Diffusion, ControlNet, Text-to-Image.
+* **[5. 联邦与隐私保护生成 (Federated & Privacy-Preserving)](docs/5_privacy.md)**
+    * 适用于分布式数据孤岛场景。
 
-- **[5. Federated & Privacy-Preserving Generation](./docs/5_privacy_federated.md)**
-  - *Scenario:* Distributed data that cannot be shared centrally due to privacy regulations.
+## 📝 引用 (Citation)
+如果您觉得本仓库对您的研究有帮助，请引用相关综述：
+* *[Title of the Survey Paper you are reading/writing]*
 
-## 📝 Citation
+## 🤝 贡献 (Contribution)
+欢迎提交 PR 或 Issue 补充新论文。格式建议：
+`[缩写] [作者, 会议 年份] 标题 [PDF] [CODE]`
 
-If you find this repository useful for your research, please consider starring ⭐ this repo.
-
-```bibtex
-@misc{awesome-medical-synthesis,
-  author = {Yujie Yang},
-  title = {Awesome Medical Image Synthesis for Data Scarcity},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/yourusername/awesome-medical-image-synthesis](https://github.com/yourusername/awesome-medical-image-synthesis)}}
-}
+## ⚖️ License
+MIT License
