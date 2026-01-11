@@ -11,6 +11,6 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `DAA-GAN` [Thermos et al., IEEE TMI 2021] **Controllable cardiac synthesis via disentangled anatomy arithmetic** [[PDF]](https://arxiv.org/abs/2107.01748v1) [[CODE]](https://github.com/vios-s/DAA-GAN)
 
   解剖和重构，将病变区域“移植”到健康数据上
-* `MedAugk` [Jiaying Zhang et al., TMI 2024] **Data Augmentation in Class-Conditional Diffusion Model for Semi-Supervised Medical Image Segmentation** [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10650822)
+* `DiffAug` [Jiaying Zhang et al., TMI 2024] **Data Augmentation in Class-Conditional Diffusion Model for Semi-Supervised Medical Image Segmentation** [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10650822)
   
   在健康图上放病灶，利用筛选机制留下合理的
