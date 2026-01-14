@@ -14,3 +14,6 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `DiffAug` [Jiaying Zhang et al., TMI 2024] **Data Augmentation in Class-Conditional Diffusion Model for Semi-Supervised Medical Image Segmentation** [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10650822)
   
   在健康图上放病灶，利用筛选机制留下合理的
+* `Tiger Model` [Dai et al., Nature Communications 2025] **Improving AI models for rare thyroid cancer subtype by text‑guided diffusion models**[[PDF]](https://www.nature.com/articles/s41467-025-59478-8) [[CODE]](https://github.com/fangdai-dear/Tiger-Model)
+
+  文本引导扩散模型：利用结构化临床文本和前景/背景双编码器，生成罕见甲状腺癌亚型的多样化超声图像
