@@ -21,9 +21,9 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 
   文本引导扩散模型：利用结构化临床文本和前景/背景双编码器，生成罕见甲状腺癌亚型的多样化超声图像
 
-* `Few-shot DiffSeg` [Khosravi et al., Computers in Biology and Medicine 2023] Few-shot biomedical image segmentation using diffusion models: Beyond image generation (https://www.sciencedirect.com/science/article/abs/pii/S0169260723004984)
+* `Few-shot DiffSeg` [Khosravi et al., Computers in Biology and Medicine 2023] Few-shot biomedical image segmentation using diffusion models: Beyond image generation [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0169260723004984)
 
 在中等规模生物医学图像上预训练 DDPM，将扩散过程中的特征作为辅助通道输入分割网络，在极少标注场景下显著提升分割性能。
-* `NeuroDiff-Aug` [Mallardi et al., Journal of Medical Systems 2025] Diffusion Models for Neuroimaging Data Augmentation: Assessing Realism and Clinical Relevance (https://link.springer.com/article/10.1007/s10916-025-02300-1)
+* `NeuroDiff-Aug` [Mallardi et al., Journal of Medical Systems 2025] Diffusion Models for Neuroimaging Data Augmentation: Assessing Realism and Clinical Relevance [[PDF]](https://link.springer.com/article/10.1007/s10916-025-02300-1)
 
 面向罕见神经影像场景，使用3D扩散模型生成脑MRI作为数据增强，通过统计指标与神经科专家主观评估双重验证合成图像的逼真度和临床可用性。
