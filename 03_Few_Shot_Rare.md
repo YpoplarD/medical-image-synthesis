@@ -32,3 +32,6 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `Onto-CGAN` [Sun et al., npj Digital Medicine 2025] Generating unseen diseases patient data using ontology enhanced generative adversarial networks [[PDF]](https://www.nature.com/articles/s41746-024-01421-0) [[CODE]](https://github.com/sunchang0124/onto-cgan)
   
   利用疾病间的语义关联实现对未见疾病的特征合成
+* `Lung-DDPM` [Jiang et al., IEEE TBME 2025] Lung-DDPM: Semantic Layout-guided Diffusion Models for Thoracic CT Image Synthesis[[PDF]](https://ieeexplore.ieee.org/document/11124548)[[CODE]](https://github.com/Manem-Lab/Lung-DDPM/)
+
+  基于语义布局引导的3D扩散模型，通过输入包含解剖结构和结节位置的掩码生成高保真肺部CT图像
