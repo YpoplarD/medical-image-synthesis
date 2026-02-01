@@ -23,3 +23,12 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `NeuroDiff-Aug` [Mallardi et al., Journal of Medical Systems 2025] Diffusion Models for Neuroimaging Data Augmentation: Assessing Realism and Clinical Relevance [[PDF]](https://link.springer.com/article/10.1007/s10916-025-02300-1)
 
   面向罕见神经影像场景，使用3D扩散模型生成脑MRI作为数据增强，通过统计指标与神经科专家主观评估双重验证合成图像的逼真度和临床可用性，核心贡献在评估。
+* `GenFair-Med` [Ktena et al., Nature Medicine 2024] Generative models improve fairness of medical classifiers [[PDF]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11031395/)
+
+  利用可控扩散模型定向合成代表性不足的少数群体样本，对稀有数据标签扩展，模拟不同环境的数据分布偏移
+* `SECONDGRAM` [Theodorou et al., Patterns 2025] SECONDGRAM: Self-conditioned diffusion with gradient manipulation for longitudinal MRI imputation [[PDF]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11031395/)
+
+  基于自条件扩散模型填补缺失时间点的影像，主要用于补全序列
+* `Onto-CGAN` [Sun et al., npj Digital Medicine 2025] Generating unseen diseases patient data using ontology enhanced generative adversarial networks [[PDF]](https://www.nature.com/articles/s41746-024-01421-0) [[CODE]](https://github.com/sunchang0124/onto-cgan)
+  
+  利用疾病间的语义关联实现对未见疾病的特征合成
