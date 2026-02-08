@@ -35,3 +35,15 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `Lung-DDPM` [Jiang et al., IEEE TBME 2025] Lung-DDPM: Semantic Layout-guided Diffusion Models for Thoracic CT Image Synthesis[[PDF]](https://ieeexplore.ieee.org/document/11124548)[[CODE]](https://github.com/Manem-Lab/Lung-DDPM/)
 
   基于语义布局引导的3D扩散模型，通过输入包含解剖结构和结节位置的掩码生成高保真肺部CT图像
+* `CXR‑LT` 2024 [Lin et al., Medical Image Analysis 2025] CXR‑LT 2024: A MICCAI challenge on long‑tailed, multi‑label and zero‑shot chest X‑ray classification [[PDF]](https://arxiv.org/abs/2506.07984)
+
+  CXR‑LT 2024任务的基准介绍，对现有方法在长尾 + 零样本肺部疾病识别中的表现给出了系统分析，没有提出新方法
+* `RaTrack` [T. Zhang et al., Electronics 2024] Tracking the Rareness of Diseases: Improving Long‑Tail Chest X‑ray Detection with Diffusion Models [[PDF]](https://www.mdpi.com/2079-9292/13/23/4693)
+
+  专门针对稀有病种的 CXR 合成增强，先用扩散模型学习头部（常见病）分布，将尾类生成过程对齐到头类
+* `Rare‑OCT Diffusion` [Iwanicka & Lu, MIUA 2025] Diffusion with Adversarial Fine‑Tuning for Improving Rare Retinal Disease Diagnosis[[PDF]](https://eprints.whiterose.ac.uk/id/eprint/228674/1/diffusion_camera_ready_Dominika%20Iwanicka%20and%20Ping%20Lu%20(1).pdf)
+
+  DDPM + 注意力 + 类别感知 + 对抗微调生成少数类合成图像
+* `Skin‑LDM` [M. Kim et al., PLOS ONE 2025] Diffusion‑based skin disease data augmentation with fine‑tuned latent encoder–decoder [[PDF]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331404)[[CODE]](https://github.com/raddshing/skin-disease-diffusion)
+
+  基于stable diffusion，贡献一般，仅用clip改进编码器和解码器，有代码
