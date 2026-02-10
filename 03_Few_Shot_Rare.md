@@ -53,3 +53,9 @@ Methods designed for **extreme data imbalance**, **anatomy manipulation**, and *
 * `GenSeg` [Zhang et al., Nat. Commun. 2025] **Generative AI enables medical image segmentation in ultra low-data regimes** [[PDF]](https://www.nature.com/articles/s41467-025-61754-6) [[CODE]](https://github.com/importZL/GenSeg)
 
   稀少样本医学分割，生成成对的图像‑掩码样本
+* `EndoRare` [Yan Zhu et al., arXiv 2025] **One-shot synthesis of rare gastrointestinal lesions improves diagnostic accuracy and clinical training** [[PDF]](https://arxiv.org/html/2512.24278v1)
+
+  使用在常见病上预训练的模型，添加一个新的罕见病类，文本条件控制生成位置
+* `DiffuLT` [Shao et al., NeurIPS 2024] DiffuLT: Diffusion for Long‑Tail Recognition Without External Knowledge [[PDF]](https://papers.nips.cc/paper_files/paper/2024/file/de7858e3e7f9f0f7b2c7bfdc86f6d928-Paper-Conference.pdf)
+
+  解决类别不平衡，给尾部类别补充样本，筛选过滤重新训练
